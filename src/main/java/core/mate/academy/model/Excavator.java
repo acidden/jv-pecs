@@ -10,4 +10,12 @@ public class Excavator extends Machine {
     public void doWork() {
         System.out.println("Excavator started to work");
     }
+
+    public double getMaxDiggingDepth() {
+        return maxDiggingDepth;
+    }
+
+    public void setMaxDiggingDepth(double maxDiggingDepth) {
+        this.maxDiggingDepth = maxDiggingDepth;
+    }
 }
